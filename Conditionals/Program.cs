@@ -16,11 +16,15 @@ namespace Conditionals
             int score;
             string gamertag;
 
+            // = "gets set to value of (command)
+            // == is equal to (math)
+
             score = 0;
+            gamertag = "Gamer1234";
             gamertag = "BBL Cody";
             if (gamertag == "BBL Cody")
             {
-                score = 1000000000; // cheat
+                score = 10000000; // cheat
             }
             Console.WriteLine("Score: " + score);
 
